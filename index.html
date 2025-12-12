@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Knowvia Technologies - Innovating Intelligence. Automating Tomorrow. We provide AI systems, mobile applications, IoT solutions, and enterprise digital tools.">
+    <meta name="keywords"
+        content="AI, Artificial Intelligence, Mobile Development, IoT, Software, Technology, Zimbabwe">
+    <title>Knowvia Technologies | Innovating Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- EmailJS SDK for contact form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#home" class="logo">KNOVIATECHNOLOGIES</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-effects">
+            <div class="scanline"></div>
+            <div class="grid-overlay"></div>
+            <div class="particle" style="--delay: 0s; --x: 10%; --y: 20%;"></div>
+            <div class="particle" style="--delay: 1s; --x: 80%; --y: 30%;"></div>
+            <div class="particle" style="--delay: 2s; --x: 20%; --y: 70%;"></div>
+            <div class="particle" style="--delay: 3s; --x: 70%; --y: 80%;"></div>
+            <div class="particle" style="--delay: 4s; --x: 50%; --y: 50%;"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-text">KNOWVIA</span>
+                <span class="title-text accent">TECHNOLOGIES</span>
+            </h1>
+            <div class="hero-subtitle-wrapper">
+                <p class="hero-subtitle">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="cursor-blink">|</span>
+                </p>
+            </div>
+            <div class="glowing-line"></div>
+            <a href="#about" class="hero-cta">
+                <span>Explore</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">// ABOUT US</span>
+                <h2 class="section-title">Who We Are</h2>
+                <div class="line-divider"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card fade-in">
+                    <div class="about-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To deliver intelligent, scalable, and transformative technology solutions that empower businesses
+                        to thrive in the digital era. We bridge the gap between innovation and implementation.</p>
+                </div>
+
+                <div class="about-card fade-in">
+                    <div class="about-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To become a global leader in AI-driven solutions, shaping the future of technology across Africa
+                        and beyond. We envision a world where intelligent automation enhances every aspect of human
+                        life.</p>
+                </div>
+
+                <div class="about-card fade-in">
+                    <div class="about-card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                    </div>
+                    <h3>Our Impact</h3>
+                    <p>We drive digital transformation across healthcare, finance, agriculture, education, and
+                        enterprise sectors. Our solutions have empowered businesses to achieve unprecedented efficiency
+                        and growth.</p>
+                </div>
+            </div>
+
+            <div class="about-description fade-in">
+                <div class="line-divider"></div>
+                <p class="about-text">
+                    Knowvia Technologies provides intelligent and highly scalable technology solutions across multiple
+                    industries. We build AI systems, mobile applications, IoT solutions, and enterprise digital tools
+                    that transform the way businesses operate and interact with their customers.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">// OUR SERVICES</span>
+                <h2 class="section-title">What We Build</h2>
+                <div class="line-divider light"></div>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z" />
+                            <circle cx="8" cy="14" r="2" />
+                            <circle cx="16" cy="14" r="2" />
+                        </svg>
+                    </div>
+                    <h3>Artificial Intelligence Solutions</h3>
+                    <p>Custom AI models, machine learning pipelines, natural language processing, and computer vision
+                        systems tailored to your business needs.</p>
+                    <div class="service-line"></div>
+                </article>
+
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
+                            <line x1="12" y1="18" x2="12.01" y2="18" />
+                        </svg>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Native and cross-platform mobile applications for iOS and Android, designed for performance,
+                        scalability, and exceptional user experience.</p>
+                    <div class="service-line"></div>
+                </article>
+
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                        </svg>
+                    </div>
+                    <h3>Website & Web App Development</h3>
+                    <p>Responsive websites, progressive web apps, and complex enterprise web applications built with
+                        modern technologies and best practices.</p>
+                    <div class="service-line"></div>
+                </article>
+
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M5 12.55a11 11 0 0 1 14.08 0" />
+                            <path d="M1.42 9a16 16 0 0 1 21.16 0" />
+                            <path d="M8.53 16.11a6 6 0 0 1 6.95 0" />
+                            <circle cx="12" cy="20" r="1" />
+                        </svg>
+                    </div>
+                    <h3>IoT Systems</h3>
+                    <p>End-to-end Internet of Things solutions including sensor integration, edge computing, cloud
+                        connectivity, and real-time monitoring dashboards.</p>
+                    <div class="service-line"></div>
+                </article>
+
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                            <path d="M2 17l10 5 10-5" />
+                            <path d="M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Automation & Smart Systems</h3>
+                    <p>Intelligent automation solutions, workflow optimization, robotic process automation, and smart
+                        building systems that enhance operational efficiency.</p>
+                    <div class="service-line"></div>
+                </article>
+
+                <article class="service-card fade-in">
+                    <div class="service-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21" />
+                            <polyline points="7.5 19.79 7.5 14.6 3 12" />
+                            <polyline points="21 12 16.5 14.6 16.5 19.79" />
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                            <line x1="12" y1="22.08" x2="12" y2="12" />
+                        </svg>
+                    </div>
+                    <h3>Enterprise Software Development</h3>
+                    <p>Custom enterprise solutions, ERP systems, CRM platforms, and business intelligence tools designed
+                        for scalability and security.</p>
+                    <div class="service-line"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section class="leadership" id="leadership">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">// LEADERSHIP</span>
+                <h2 class="section-title">Meet Our Team</h2>
+                <div class="line-divider"></div>
+            </div>
+
+            <div class="leadership-grid">
+                <article class="leader-card fade-in">
+                    <div class="leader-frame">
+                        <div class="leader-image-placeholder">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </div>
+                        <div class="leader-frame-corner top-left"></div>
+                        <div class="leader-frame-corner top-right"></div>
+                        <div class="leader-frame-corner bottom-left"></div>
+                        <div class="leader-frame-corner bottom-right"></div>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Gareth Chitate</h3>
+                        <p class="leader-title">Co-Founder & Co-CEO</p>
+                        <div class="leader-line"></div>
+                    </div>
+                </article>
+
+                <article class="leader-card fade-in">
+                    <div class="leader-frame">
+                        <div class="leader-image-placeholder">
+                            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                                <circle cx="12" cy="7" r="4" />
+                            </svg>
+                        </div>
+                        <div class="leader-frame-corner top-left"></div>
+                        <div class="leader-frame-corner top-right"></div>
+                        <div class="leader-frame-corner bottom-left"></div>
+                        <div class="leader-frame-corner bottom-right"></div>
+                    </div>
+                    <div class="leader-info">
+                        <h3>Tanatswa Mazambani</h3>
+                        <p class="leader-title">Co-Founder & Co-CEO</p>
+                        <div class="leader-line"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="section-tag">// GET IN TOUCH</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="line-divider light"></div>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                <polyline points="22,6 12,13 2,6" />
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:chitategareth@gmail.com">chitategareth@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span>Harare, Zimbabwe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="from_name" placeholder="Enter your name" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="reply_to" placeholder="Enter your email" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message"
+                            required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="22" y1="2" x2="11" y2="13" />
+                            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                        </svg>
+                    </button>
+
+                    <div class="form-success" id="formSuccess">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                            <polyline points="22 4 12 14.01 9 11.01" />
+                        </svg>
+                        <span>Message sent successfully!</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-line"></div>
+        <div class="container">
+            <p>&copy; 2025 Knowvia Technologies. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
